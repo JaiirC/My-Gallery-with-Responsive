@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+
+}
+
+.container {
+    margin: auto; 
+    align-items: center;
+}
+  
+.container__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 16%;
+    margin-top: 25px ;
+}
+.container__perfil  p {
+    text-align: center;
+  }
+  
+.container__perfil--name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #4E5150;
+    text-align: center;
+    font-style:normal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+.container__perfil--location {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #A9A9A9;
+  }
+  
+.conteiner__card {
+    display: flex;
+    
+  }
+  
+.conteiner__card--info {
+   
+    margin:auto 10px;
+    margin-top: 10px;
+    background-color: #E5E5E5;
+    border-radius: 12px;
+    width: 78px;
+    height: 52px;
+    
+  }
+  
+  .conteiner__card--info .number {
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #4E5150;
+  }
+  
+  .conteiner__card--info .description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: center;
+    color: #BDBDBD;
+  }
